@@ -70,13 +70,13 @@ img {
 }
 .hero .hero-content a {
   padding: 0.625rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   background-color: #3a0719;
 }
 
 @media (min-width: 768px) {
   .hero {
-    height: 600px;
+    height: 800px;
   }
   .hero .hero-img {
     background-image: url("/img/img_desktop.jpg");

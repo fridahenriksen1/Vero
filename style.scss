@@ -43,7 +43,7 @@ img {
     }
     a {
       padding: 0.625rem;
-      font-size: 1rem;
+      font-size: 0.85rem;
       background-color: $red-900;
     }
   }
@@ -52,7 +52,7 @@ img {
 // Desktop
 @media (min-width: 768px) {
   .hero {
-    height: 600px;
+    height: 800px;
 
     .hero-img {
       background-image: url("/img/img_desktop.jpg");
