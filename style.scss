@@ -46,10 +46,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
-    text-align: center;
-    color: white;
 
     h1 {
       font-size: 2rem;
@@ -59,10 +57,10 @@ a {
       font-size: 1rem;
       margin-bottom: 1rem;
     }
-    button {
+    a {
       padding: 0.5rem 1rem;
       font-size: 1rem;
-      background-color: #ff6b6b;
+      background-color: $red-900;
       border: none;
       border-radius: 5px;
       color: white;
