@@ -7,6 +7,7 @@
 }
 h1 {
   color: $red-900;
+   text-transform: uppercase;
 }
 p {
   color: $red-900;
@@ -14,4 +15,6 @@ p {
 a {
   color: $white;
   text-decoration: none;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
 }

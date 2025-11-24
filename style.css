@@ -14,6 +14,7 @@ html {
 }
 h1 {
   color: #3a0719;
+  text-transform: uppercase;
 }
 
 p {
@@ -23,6 +24,8 @@ p {
 a {
   color: white;
   text-decoration: none;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
 }
 
 body {
@@ -53,9 +56,10 @@ img {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
+  padding: 2rem;
 }
 .hero .hero-content h1 {
   font-size: 2rem;
@@ -66,13 +70,9 @@ img {
   margin-bottom: 1rem;
 }
 .hero .hero-content a {
-  padding: 0.5rem 1rem;
+  padding: 0.625rem;
   font-size: 1rem;
   background-color: #3a0719;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -83,10 +83,10 @@ img {
     background-image: url("/img/img_desktop.jpg");
   }
   .hero .hero-content h1 {
-    font-size: 3rem;
+    font-size: 3.75rem;
   }
   .hero .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
   .hero .hero-content a {
     font-size: 1.1rem;

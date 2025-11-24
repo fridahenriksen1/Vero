@@ -8,7 +8,6 @@ img {
   width: 100%;
 }
 
-
 .hero {
   height: 400px; // boxens höjd
   position: relative; // så hero-content kan ligga ovanpå
@@ -30,9 +29,10 @@ img {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start; // placerar innehållet högst upp
+    align-items: flex-start; // placerar innehållet till vänster
     height: 100%;
+    padding: 2rem;
 
     h1 {
       font-size: 2rem;
@@ -43,13 +43,9 @@ img {
       margin-bottom: 1rem;
     }
     a {
-      padding: 0.5rem 1rem;
+      padding: 0.625rem;
       font-size: 1rem;
       background-color: $red-900;
-      border: none;
-      border-radius: 5px;
-      color: white;
-      cursor: pointer;
     }
   }
 }
@@ -65,10 +61,10 @@ img {
 
     .hero-content {
       h1 {
-        font-size: 3rem;
+        font-size: 3.75rem;
       }
       p {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
       }
       a {
         font-size: 1.1rem;
