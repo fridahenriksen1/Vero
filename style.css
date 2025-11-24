@@ -64,7 +64,10 @@ img {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-.hero .hero-content p {
+.hero .hero-content .p-box {
+  max-width: 300px;
+}
+.hero .hero-content .p-box p {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -83,15 +86,20 @@ img {
   }
   .hero .hero-content {
     max-width: 838px;
+    margin: 2.75rem 0rem 0rem 7.5rem;
   }
   .hero .hero-content h1 {
     font-size: 3.75rem;
   }
-  .hero .hero-content p {
+  .hero .hero-content .p-box {
+    max-width: 590px;
+  }
+  .hero .hero-content .p-box p {
     font-size: 1.25rem;
   }
   .hero .hero-content a {
     font-size: 1.1rem;
     padding: 0.75rem 1.5rem;
+    margin-top: 1.75rem;
   }
 }/*# sourceMappingURL=style.css.map */
