@@ -49,11 +49,10 @@ img {
   background-image: url("/img/img_desktop.jpg");
   background-size: cover;
   background-position: center;
-  z-index: 0;
 }
 .hero .hero-content {
   position: relative;
-  z-index: 1;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -81,6 +80,9 @@ img {
   }
   .hero .hero-img {
     background-image: url("/img/img_desktop.jpg");
+  }
+  .hero .hero-content {
+    max-width: 838px;
   }
   .hero .hero-content h1 {
     font-size: 3.75rem;

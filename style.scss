@@ -21,12 +21,11 @@ img {
     background-image: url("/img/img_desktop.jpg");
     background-size: cover;
     background-position: center;
-    z-index: 0; // ligger bakom texten
   }
 
   .hero-content {
     position: relative;
-    z-index: 1;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; // placerar innehållet högst upp
@@ -60,6 +59,7 @@ img {
     }
 
     .hero-content {
+      max-width: 838px;
       h1 {
         font-size: 3.75rem;
       }
