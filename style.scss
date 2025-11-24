@@ -1,28 +1,13 @@
 @import "sass/reset";
 @import "sass/colors";
-@font-face {
-  font-family: "Degular";
-  src: url("/fonts/Degular-Semibold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
+@import "sass/typography";
 body {
   font-family: "Degular";
 }
 img {
   width: 100%;
 }
-h1 {
-  color: $red-900;
-}
-p {
-  color: $red-900;
-}
-a {
-  color: $white;
-  text-decoration: none;
-}
+
 
 .hero {
   height: 400px; // boxens höjd

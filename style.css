@@ -12,14 +12,6 @@ html {
   font-style: normal;
   font-display: swap;
 }
-body {
-  font-family: "Degular";
-}
-
-img {
-  width: 100%;
-}
-
 h1 {
   color: #3a0719;
 }
@@ -31,6 +23,14 @@ p {
 a {
   color: white;
   text-decoration: none;
+}
+
+body {
+  font-family: "Degular";
+}
+
+img {
+  width: 100%;
 }
 
 .hero {
