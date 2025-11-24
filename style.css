@@ -12,6 +12,10 @@ html {
   font-style: normal;
   font-display: swap;
 }
+body {
+  font-family: "Degular";
+}
+
 h1 {
   color: #3a0719;
   text-transform: uppercase;
@@ -26,10 +30,6 @@ a {
   text-decoration: none;
   letter-spacing: 0.04rem;
   text-transform: uppercase;
-}
-
-body {
-  font-family: "Degular";
 }
 
 img {
